@@ -92,9 +92,9 @@ hr {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: var(--verde);
-    background-image: url("https://lh3.googleusercontent.com/zUOAQbd6rbD4vtAwF9tzzPYlQWOkG3OFsB0IrqMsLPc44ftYSVteoeAMd6P51-lNwcBYU384z3XIgGN927k6xxifqpOK2P8F0G8=w1343");
+    background-image: url("/assets/bg-inicio.png");
     background-size: cover;
-    background-position: center center;
+    background-position: left center;
     background-repeat: no-repeat;
 }
 
