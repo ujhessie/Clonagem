@@ -12,6 +12,15 @@
     --laranja: #f06d01;
 }
 
+/* iframe */
+#vid_668dec2991e6bf000b135f84 {
+position: relative;
+width: 100%;
+padding: 56.25% 0 0;
+    /* position: relative; width: 100%; padding: 56.25% 0 0 */
+}
+/* iframe */
+
 section {
     padding: 20px 30px;
     text-align: center;
@@ -36,11 +45,22 @@ h1 {
 
 h2 {
     font-size: 42px;
+
+    span {
+        color: var(--amarelo);
+    }
 }
 p {
     font-size: 22px;
     line-height: 120%;
     margin-bottom: 40px;
+}
+
+hr {
+    border: none;
+    border-top: 4px dashed var(--verde);
+    height: 1px;
+    margin: 20px 0;
 }
 
 .div-iframe {
@@ -93,7 +113,7 @@ p {
 
 .div-flex {
     display: grid;
-    
+
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
