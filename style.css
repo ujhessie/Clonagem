@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     border: 0;
     margin: 0;
@@ -45,15 +47,17 @@ h1 {
 
 h2 {
     font-size: 42px;
+    margin-bottom: 40px;
 
     span {
         color: var(--amarelo);
     }
 }
-p {
+p, a {
     font-size: 22px;
     line-height: 120%;
     margin-bottom: 40px;
+    font-family: "Playfair Display", sans-serif;
 }
 
 hr {
@@ -118,6 +122,34 @@ hr {
     gap: 20px;
 }
 
+.banner-img {
+    img {
+        width: 100%;
+    }
+}
+.div-img {
+    img {
+        width: 100%;
+    }
+}
+#banner-verde {
+    h2 {
+        margin-bottom: 40px;
+    }
+}
+
+#footer {
+    .div-img {
+        margin-bottom: 20px;
+    }
+    a {
+        color: white;
+        text-decoration: underline;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+}
+
 @media (max-width: 767px) {
     section {
         padding: 0px 10px;
@@ -133,5 +165,10 @@ hr {
     .div-flex {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .div-img {
+        img {
+            width: 60%;
+        }
     }
 }
